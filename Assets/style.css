@@ -1,4 +1,9 @@
+* {
+  border: solid 1px red;
+}
+
 body {
+  display: flex;
   flex-direction: column;
   box-sizing: border-box;
   margin: 2%;
@@ -21,7 +26,7 @@ h1 {
   font-size: 200%;
 }
 
-.subtitle {
+.subheader {
   font-size: 300%;
   color: aliceblue;
   background-color: rgb(130, 106, 76);
@@ -30,4 +35,8 @@ h1 {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+br {
+  max-width: 5px;
 }

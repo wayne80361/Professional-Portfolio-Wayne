@@ -1,0 +1,33 @@
+body {
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 2%;
+}
+
+.topheader {
+  background-color: rgb(111, 111, 150);
+}
+nav ul {
+  display: flex;
+  margin: 10px;
+  justify-content: flex-end;
+}
+
+nav a {
+  margin: 5px;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+.subtitle {
+  font-size: 300%;
+  color: aliceblue;
+  background-color: rgb(130, 106, 76);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

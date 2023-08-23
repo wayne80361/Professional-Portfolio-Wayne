@@ -32,24 +32,27 @@ nav a {
 
 h1 {
   font-size: 200%;
+  font-weight: 1000;
 }
 
-.subheader {
+.subheader p {
   font-size: 300%;
   color: aliceblue;
   background-color: rgb(130, 106, 76);
-  height: 100px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   padding-bottom: 5px;
   padding-right: 5px;
+  margin: 0;
+  min-height: 100px;
+  max-height: fit-content;
 }
 
 hr {
   margin: 5px;
   width: 5px;
-  height: 100px;
+  min-height: 30px;
   background-color: black;
   align-content: flex-start;
 }
@@ -70,6 +73,8 @@ hr {
 .aboutme p {
   flex: 1;
   min-height: 30px;
+  padding: 3px;
+  border: dashed rgb(98, 119, 139);
 }
 
 .work {
@@ -90,6 +95,8 @@ hr {
   flex: 1 0;
   min-height: 30px;
   margin: 5px;
+  border: dashed rgb(98, 119, 139);
+  padding: 3px;
 }
 
 .contactme {
@@ -123,4 +130,15 @@ footer {
 footer p {
   flex: 1;
   text-align: center;
+}
+
+/* End of Base Design */
+
+nav a:hover {
+  color: aliceblue;
+}
+
+.aboutme p:hover,
+.work p:hover {
+  background-color: aqua;
 }

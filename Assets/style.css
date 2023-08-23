@@ -143,10 +143,19 @@ footer p {
 nav a:hover {
   color: antiquewhite;
 }
+
+nav a:active {
+  font-size: 130%;
+  box-shadow: 0 0 1px black;
+}
+
 .contactme a:hover {
   color: rgb(41, 122, 47);
 }
 
+.contactme a:active {
+  font-weight: 800;
+}
 .aboutme p:hover,
 .work p:hover {
   background-color: aqua;

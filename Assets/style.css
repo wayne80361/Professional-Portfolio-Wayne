@@ -37,8 +37,12 @@ h1 {
 
 .subheader p {
   font-size: 300%;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   background-color: rgb(130, 106, 76);
+  background-image: url(../Image/01b4895fe9307611013ee04dbea26a.jfif);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 150px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

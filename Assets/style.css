@@ -1,5 +1,5 @@
 * {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   box-sizing: border-box;
 }
 
@@ -22,7 +22,12 @@ nav ul {
 }
 
 nav a {
-  margin: 5px;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: large;
 }
 
 h1 {
@@ -35,12 +40,14 @@ h1 {
   background-color: rgb(130, 106, 76);
   height: 100px;
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  padding-bottom: 5px;
+  padding-right: 5px;
 }
 
-br {
+hr {
+  margin: 5px;
   width: 5px;
   height: 100px;
   background-color: black;
@@ -54,12 +61,15 @@ br {
 .aboutme aside,
 .work aside,
 .contactme aside {
+  margin-top: 5px;
+  text-align: right;
   min-width: 100px;
   max-width: 150px;
 }
 
 .aboutme p {
   flex: 1;
+  min-height: 30px;
 }
 
 .work {
@@ -67,10 +77,6 @@ br {
   position: relative;
   top: 3px;
 }
-
-/* .work aside {
-  width: 125px;
-} */
 
 .work div {
   display: flex;
@@ -82,21 +88,13 @@ br {
 
 .work div p {
   flex: 1 0;
-  min-height: auto;
+  min-height: 30px;
+  margin: 5px;
 }
 
 .contactme {
   display: flex;
 }
-
-/* .contactme aside {
-  width: 125px;
-} */
-
-/* section aside {
-  min-height: 100px;
-  padding: 10px;
-} */
 
 .contactme {
   min-height: fit-content;
@@ -111,9 +109,8 @@ br {
 }
 .contactme div a {
   flex: 1;
-
-  /* justify-content: center; */
-  /* margin: 15px; */
+  justify-content: center;
+  margin: 5px;
 }
 
 footer {

@@ -160,3 +160,7 @@ nav a:active {
 .work p:hover {
   background-color: aqua;
 }
+
+footer {
+  background-color: rgb(111, 111, 150);
+}

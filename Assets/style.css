@@ -1,12 +1,14 @@
 * {
   border: solid 1px red;
+  box-sizing: border-box;
 }
 
 body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  margin: 2%;
+  margin: 3px;
+  background-color: antiquewhite;
 }
 
 .topheader {
@@ -14,8 +16,9 @@ body {
 }
 nav ul {
   display: flex;
-  margin: 10px;
   justify-content: flex-end;
+  margin: 0;
+  padding: 5px;
 }
 
 nav a {
@@ -38,5 +41,89 @@ h1 {
 }
 
 br {
-  max-width: 5px;
+  width: 5px;
+  height: 100px;
+  background-color: black;
+  align-content: flex-start;
+}
+
+.aboutme {
+  display: flex;
+}
+
+.aboutme aside,
+.work aside,
+.contactme aside {
+  min-width: 100px;
+  max-width: 150px;
+}
+
+.aboutme p {
+  flex: 1;
+}
+
+.work {
+  display: flex;
+  position: relative;
+  top: 3px;
+}
+
+/* .work aside {
+  width: 125px;
+} */
+
+.work div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+}
+
+.work div p {
+  flex: 1 0;
+  min-height: auto;
+}
+
+.contactme {
+  display: flex;
+}
+
+/* .contactme aside {
+  width: 125px;
+} */
+
+/* section aside {
+  min-height: 100px;
+  padding: 10px;
+} */
+
+.contactme {
+  min-height: fit-content;
+}
+
+.contactme div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+.contactme div a {
+  flex: 1;
+
+  /* justify-content: center; */
+  /* margin: 15px; */
+}
+
+footer {
+  min-height: 35px;
+  max-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  flex: 1;
+  text-align: center;
 }

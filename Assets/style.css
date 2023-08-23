@@ -120,8 +120,10 @@ hr {
 }
 .contactme div a {
   flex: 1;
+  display: flex;
   justify-content: center;
   margin: 5px;
+  text-decoration: none;
 }
 
 footer {
@@ -139,7 +141,10 @@ footer p {
 /* End of Base Design */
 
 nav a:hover {
-  color: aliceblue;
+  color: antiquewhite;
+}
+.contactme a:hover {
+  color: rgb(41, 122, 47);
 }
 
 .aboutme p:hover,

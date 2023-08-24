@@ -164,3 +164,7 @@ nav a:active {
 footer {
   background-color: rgb(111, 111, 150);
 }
+
+html {
+  scroll-behavior: smooth;
+}

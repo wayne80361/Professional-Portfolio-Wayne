@@ -182,3 +182,7 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+body section div a {
+  font-size: x-large;
+}

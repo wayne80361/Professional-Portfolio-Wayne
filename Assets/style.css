@@ -109,7 +109,7 @@ hr {
   width: 100%;
 }
 
-.work div p {
+.work div section {
   flex: 1 0;
   min-height: 30px;
   margin: 5px;
@@ -171,7 +171,7 @@ nav a:active {
   font-weight: 800;
 }
 .aboutme p:hover,
-.work p:hover {
+.work section:hover {
   background-color: aqua;
 }
 
